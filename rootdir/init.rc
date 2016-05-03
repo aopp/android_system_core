@@ -652,3 +652,8 @@ service pre-recovery /system/bin/uncrypt
     class main
     disabled
     oneshot
+
+service chrootboot /system/bin/chrootboot
+    class main
+    user root
+    oneshot
